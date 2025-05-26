@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenido Cory</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.3em;
+    }
+
+    p {
+      font-size: 1.5em;
+      max-width: 700px;
+      margin: 0 20px;
+    }
+
+    .highlight {
+      color: #00ffcc;
+      font-weight: bold;
+    }
+
+    .boton {
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #00ffcc;
+      color: #000;
+      border: none;
+      border-radius: 10px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .boton:hover {
+      transform: scale(1.1);
+      background-color: #00e6b8;
+    }
+  </style>
+</head>
+<body>
+  <h1>¡Bienvenido Cory!</h1>
+  <p>
+    Este espacio fue creado especialmente para ti, <span class="highlight">un amante del código y la inteligencia artificial</span>.
+    Que cada línea que escribas esté llena de propósito y cada proyecto te acerque a tus sueños. 
+    ¡Sigue construyendo el futuro con pasión y creatividad!
+  </p>
+  <button class="boton" onclick="alert('¡Éxitos infinitos, Cory!')">Recibe buena vibra</button>
+</body>
+</html>
